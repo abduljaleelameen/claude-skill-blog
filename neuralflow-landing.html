@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuralFlow - AI-Powered Workflow Automation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Work+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --color-cyan: #00D9FF;
+            --color-purple: #A855F7;
+            --color-emerald: #10B981;
+            --color-dark-bg: #0A0E1A;
+            --color-card-bg: #1A1F35;
+            --font-display: 'Space Grotesk', sans-serif;
+            --font-body: 'Work Sans', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background: var(--color-dark-bg);
+            color: #F1F5F9;
+            overflow-x: hidden;
+        }
+
+        /* Animated gradient mesh background */
+        .gradient-mesh {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            background:
+                radial-gradient(circle at 20% 30%, rgba(0, 217, 255, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(168, 85, 247, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 40% 70%, rgba(16, 185, 129, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 90% 80%, rgba(0, 217, 255, 0.08) 0%, transparent 50%),
+                linear-gradient(135deg, #0A0E1A 0%, #1A1F35 50%, #0F1628 100%);
+            animation: meshMove 20s ease-in-out infinite;
+        }
+
+        @keyframes meshMove {
+            0%, 100% {
+                background-position: 0% 50%, 100% 50%, 50% 100%, 100% 100%, 0% 0%;
+            }
+            50% {
+                background-position: 100% 50%, 0% 50%, 50% 0%, 0% 0%, 0% 0%;
+            }
+        }
+
+        /* Dot grid overlay */
+        .dot-grid {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background-image:
+                radial-gradient(circle, rgba(0, 217, 255, 0.1) 1px, transparent 1px);
+            background-size: 30px 30px;
+            pointer-events: none;
+        }
+
+        /* Content container */
+        .content {
+            position: relative;
+            z-index: 10;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-display);
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        /* Staggered fade-in animations */
+        .fade-in {
+            opacity: 0;
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        .delay-1 { animation-delay: 0.1s; }
+        .delay-2 { animation-delay: 0.2s; }
+        .delay-3 { animation-delay: 0.3s; }
+        .delay-4 { animation-delay: 0.4s; }
+        .delay-5 { animation-delay: 0.5s; }
+        .delay-6 { animation-delay: 0.6s; }
+        .delay-7 { animation-delay: 0.7s; }
+        .delay-8 { animation-delay: 0.8s; }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Glowing card effect */
+        .glow-card {
+            background: rgba(26, 31, 53, 0.6);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 217, 255, 0.2);
+            border-radius: 16px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.4s ease;
+        }
+
+        .glow-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(0, 217, 255, 0.1) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .glow-card:hover {
+            border-color: rgba(0, 217, 255, 0.5);
+            transform: translateY(-4px);
+            box-shadow: 0 0 40px rgba(0, 217, 255, 0.2);
+        }
+
+        .glow-card:hover::before {
+            opacity: 1;
+        }
+
+        /* Floating CTA button */
+        .cta-button {
+            background: linear-gradient(135deg, var(--color-cyan) 0%, var(--color-purple) 100%);
+            color: white;
+            font-family: var(--font-display);
+            font-weight: 600;
+            padding: 16px 40px;
+            border-radius: 12px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 30px rgba(0, 217, 255, 0.3);
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .cta-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 50px rgba(0, 217, 255, 0.5);
+        }
+
+        .cta-button:hover::before {
+            left: 100%;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        /* Code snippet styling */
+        .code-snippet {
+            font-family: var(--font-mono);
+            background: rgba(10, 14, 26, 0.8);
+            border: 1px solid rgba(168, 85, 247, 0.3);
+            border-radius: 8px;
+            padding: 20px;
+            color: var(--color-cyan);
+            font-size: 14px;
+            overflow-x: auto;
+        }
+
+        /* Feature icons */
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, rgba(0, 217, 255, 0.2) 0%, rgba(168, 85, 247, 0.2) 100%);
+            border: 1px solid rgba(0, 217, 255, 0.3);
+        }
+
+        /* Stats counter */
+        .stat-number {
+            font-family: var(--font-display);
+            font-size: 48px;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--color-cyan) 0%, var(--color-purple) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Pulse animation for accents */
+        .pulse-glow {
+            animation: pulseGlow 2s ease-in-out infinite;
+        }
+
+        @keyframes pulseGlow {
+            0%, 100% {
+                box-shadow: 0 0 20px rgba(0, 217, 255, 0.3);
+            }
+            50% {
+                box-shadow: 0 0 40px rgba(0, 217, 255, 0.6);
+            }
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .stat-number {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Animated background -->
+    <div class="gradient-mesh"></div>
+    <div class="dot-grid"></div>
+
+    <!-- Main content -->
+    <div class="content">
+        <!-- Navigation -->
+        <nav class="fade-in delay-1 px-6 py-6 max-w-7xl mx-auto">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold" style="font-family: var(--font-display);">
+                    <span style="color: var(--color-cyan);">Neural</span><span style="color: var(--color-purple);">Flow</span>
+                </div>
+                <div class="hidden md:flex gap-8 text-sm" style="font-weight: 500;">
+                    <a href="#features" class="hover:text-cyan-400 transition-colors">Features</a>
+                    <a href="#how-it-works" class="hover:text-cyan-400 transition-colors">How It Works</a>
+                    <a href="#pricing" class="hover:text-cyan-400 transition-colors">Pricing</a>
+                    <a href="#docs" class="hover:text-cyan-400 transition-colors">Docs</a>
+                </div>
+                <button class="px-6 py-2 border border-cyan-400 rounded-lg text-cyan-400 hover:bg-cyan-400 hover:text-slate-900 transition-all" style="font-family: var(--font-display); font-weight: 600;">
+                    Sign In
+                </button>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="px-6 py-20 md:py-32 max-w-7xl mx-auto">
+            <div class="max-w-4xl mx-auto text-center">
+                <div class="fade-in delay-2 inline-block px-4 py-2 mb-6 rounded-full" style="background: rgba(0, 217, 255, 0.1); border: 1px solid rgba(0, 217, 255, 0.3); font-family: var(--font-mono); font-size: 12px; color: var(--color-cyan);">
+                    ✨ NEW: AI Agent Builder v2.0
+                </div>
+
+                <h1 class="fade-in delay-3 text-5xl md:text-7xl font-bold mb-6 leading-tight">
+                    Automate Workflows<br/>
+                    <span style="background: linear-gradient(135deg, var(--color-cyan) 0%, var(--color-purple) 50%, var(--color-emerald) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                        With Neural Precision
+                    </span>
+                </h1>
+
+                <p class="fade-in delay-4 text-xl md:text-2xl mb-12 text-slate-300" style="font-weight: 300; line-height: 1.6;">
+                    Build intelligent automation pipelines that learn, adapt, and scale.<br/>
+                    No code required. Infinite possibilities.
+                </p>
+
+                <div class="fade-in delay-5 flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+                    <button class="cta-button">
+                        Start Building Free
+                    </button>
+                    <button class="px-8 py-4 border-2 border-slate-600 rounded-lg hover:border-cyan-400 hover:text-cyan-400 transition-all" style="font-family: var(--font-display); font-weight: 600;">
+                        Watch Demo →
+                    </button>
+                </div>
+
+                <div class="fade-in delay-6 code-snippet max-w-2xl mx-auto text-left">
+                    <div class="flex items-center gap-2 mb-3 text-slate-500" style="font-size: 12px;">
+                        <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                        <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                        <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                        <span class="ml-2">workflow.yml</span>
+                    </div>
+                    <pre><span style="color: var(--color-purple);">neural</span>.<span style="color: var(--color-cyan);">flow</span>({
+  <span style="color: var(--color-emerald);">trigger</span>: <span style="color: #FBB65F;">"new_customer"</span>,
+  <span style="color: var(--color-emerald);">actions</span>: [
+    <span style="color: #F472B6);">analyze_sentiment</span>(),
+    <span style="color: #F472B6);">personalize_outreach</span>(),
+    <span style="color: #F472B6);">schedule_follow_up</span>()
+  ]
+})</pre>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="px-6 py-16 max-w-7xl mx-auto">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="fade-in delay-7 text-center">
+                    <div class="stat-number">10M+</div>
+                    <div class="text-slate-400 mt-2" style="font-size: 14px;">Workflows Executed</div>
+                </div>
+                <div class="fade-in delay-7 text-center">
+                    <div class="stat-number">99.9%</div>
+                    <div class="text-slate-400 mt-2" style="font-size: 14px;">Uptime SLA</div>
+                </div>
+                <div class="fade-in delay-8 text-center">
+                    <div class="stat-number">500+</div>
+                    <div class="text-slate-400 mt-2" style="font-size: 14px;">Integrations</div>
+                </div>
+                <div class="fade-in delay-8 text-center">
+                    <div class="stat-number">24/7</div>
+                    <div class="text-slate-400 mt-2" style="font-size: 14px;">AI Monitoring</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="px-6 py-20 max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">
+                    Powered By <span style="color: var(--color-cyan);">Intelligence</span>
+                </h2>
+                <p class="text-xl text-slate-400" style="font-weight: 300;">
+                    Every feature designed to amplify your productivity
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Feature 1 -->
+                <div class="glow-card p-8">
+                    <div class="feature-icon">🧠</div>
+                    <h3 class="text-2xl font-bold mb-3">Neural Learning</h3>
+                    <p class="text-slate-300" style="line-height: 1.7;">
+                        Workflows that learn from patterns and optimize themselves over time. Continuous improvement without manual tuning.
+                    </p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="glow-card p-8">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="text-2xl font-bold mb-3">Lightning Fast</h3>
+                    <p class="text-slate-300" style="line-height: 1.7;">
+                        Sub-100ms response times powered by edge computing. Your automations run at the speed of thought.
+                    </p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="glow-card p-8">
+                    <div class="feature-icon">🔒</div>
+                    <h3 class="text-2xl font-bold mb-3">Enterprise Security</h3>
+                    <p class="text-slate-300" style="line-height: 1.7;">
+                        SOC 2 Type II compliant with end-to-end encryption. Your data stays yours, always.
+                    </p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="glow-card p-8">
+                    <div class="feature-icon">🔄</div>
+                    <h3 class="text-2xl font-bold mb-3">Universal Sync</h3>
+                    <p class="text-slate-300" style="line-height: 1.7;">
+                        Connect to 500+ apps and services. From Slack to Salesforce, we integrate with everything.
+                    </p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="glow-card p-8">
+                    <div class="feature-icon">📊</div>
+                    <h3 class="text-2xl font-bold mb-3">Real-time Analytics</h3>
+                    <p class="text-slate-300" style="line-height: 1.7;">
+                        Visualize workflow performance with interactive dashboards. Make data-driven decisions instantly.
+                    </p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="glow-card p-8">
+                    <div class="feature-icon">🌐</div>
+                    <h3 class="text-2xl font-bold mb-3">Global Scale</h3>
+                    <p class="text-slate-300" style="line-height: 1.7;">
+                        Deployed across 35+ regions worldwide. Low latency, high availability, everywhere.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section id="how-it-works" class="px-6 py-20 max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">
+                    Simple. <span style="color: var(--color-purple);">Powerful.</span> Fast.
+                </h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 mx-auto mb-6 rounded-full flex items-center justify-center text-2xl font-bold pulse-glow" style="background: linear-gradient(135deg, var(--color-cyan) 0%, var(--color-purple) 100%); font-family: var(--font-display);">
+                        1
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Design Your Flow</h3>
+                    <p class="text-slate-400" style="line-height: 1.7;">
+                        Use our visual builder or write code. Define triggers, actions, and conditions in minutes.
+                    </p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-16 h-16 mx-auto mb-6 rounded-full flex items-center justify-center text-2xl font-bold pulse-glow" style="background: linear-gradient(135deg, var(--color-purple) 0%, var(--color-emerald) 100%); font-family: var(--font-display); animation-delay: 0.5s;">
+                        2
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Deploy Instantly</h3>
+                    <p class="text-slate-400" style="line-height: 1.7;">
+                        One click to production. Our AI validates and optimizes your workflow before launch.
+                    </p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-16 h-16 mx-auto mb-6 rounded-full flex items-center justify-center text-2xl font-bold pulse-glow" style="background: linear-gradient(135deg, var(--color-emerald) 0%, var(--color-cyan) 100%); font-family: var(--font-display); animation-delay: 1s;">
+                        3
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Watch It Scale</h3>
+                    <p class="text-slate-400" style="line-height: 1.7;">
+                        Monitor performance, iterate quickly, and let AI handle the optimization. Set it and forget it.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="px-6 py-20 max-w-5xl mx-auto text-center">
+            <div class="glow-card p-12 md:p-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                    Ready to Transform<br/>
+                    <span style="color: var(--color-cyan);">Your Workflow?</span>
+                </h2>
+                <p class="text-xl text-slate-300 mb-8" style="font-weight: 300;">
+                    Join 50,000+ teams already automating with NeuralFlow
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button class="cta-button">
+                        Get Started Free
+                    </button>
+                    <button class="px-8 py-4 bg-transparent border-2 border-purple-500 text-purple-400 rounded-lg hover:bg-purple-500 hover:text-white transition-all" style="font-family: var(--font-display); font-weight: 600;">
+                        Talk to Sales
+                    </button>
+                </div>
+                <p class="text-sm text-slate-500 mt-6">
+                    No credit card required • Free forever plan • Cancel anytime
+                </p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="px-6 py-12 max-w-7xl mx-auto border-t border-slate-800 mt-20">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <div class="text-2xl font-bold mb-4" style="font-family: var(--font-display);">
+                        <span style="color: var(--color-cyan);">Neural</span><span style="color: var(--color-purple);">Flow</span>
+                    </div>
+                    <p class="text-slate-400 text-sm">
+                        AI-powered workflow automation for the modern team.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4" style="font-family: var(--font-display);">Product</h4>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li><a href="#" class="hover:text-cyan-400 transition-colors">Features</a></li>
+                        <li><a href="#" class="hover:text-cyan-400 transition-colors">Pricing</a></li>
+                        <li><a href="#" class="hover:text-cyan-400 transition-colors">Integrations</a></li>
+                        <li><a href="#" class="hover:text-cyan-400 transition-colors">Changelog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4" style="font-family: var(--font-display);">Resources</h4>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li><a href="#" class="hover:text-cyan-400 transition-colors">Documentation</a></li>
+                        <li><a href="#" class="hover:text-cyan-400 transition-colors">API Reference</a></li>
+                        <li><a href="#" class="hover:text-cyan-400 transition-colors">Guides</a></li>
+                        <li><a href="#" class="hover:text-cyan-400 transition-colors">Support</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4" style="font-family: var(--font-display);">Company</h4>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li><a href="#" class="hover:text-cyan-400 transition-colors">About</a></li>
+                        <li><a href="#" class="hover:text-cyan-400 transition-colors">Blog</a></li>
+                        <li><a href="#" class="hover:text-cyan-400 transition-colors">Careers</a></li>
+                        <li><a href="#" class="hover:text-cyan-400 transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-8 border-t border-slate-800 text-center text-sm text-slate-500">
+                © 2024 NeuralFlow. All rights reserved.
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: neuralflow-landing
+    env: static
+    buildCommand: echo "No build needed"
+    staticPublishPath: .
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /neuralflow-landing.html
