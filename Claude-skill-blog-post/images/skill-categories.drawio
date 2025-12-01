@@ -1,0 +1,251 @@
+<mxfile host="app.diagrams.net" modified="2025-12-01T00:00:00.000Z" agent="5.0" version="21.0.0" type="device">
+  <diagram name="Skill Categories" id="categories-diagram">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Background -->
+        <mxCell id="bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAFAFA;strokeColor=none;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="1300" height="800" as="geometry" />
+        </mxCell>
+
+        <!-- Title -->
+        <mxCell id="title" value="The Four Kingdoms of Claude Skills" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;fontStyle=1;fontColor=#1A1A2E;" vertex="1" parent="1">
+          <mxGeometry x="350" y="70" width="700" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="subtitle" value="Discover the skill categories that power your AI workflows" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="115" width="600" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Category 1: Creative -->
+        <mxCell id="creative-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#E91E63;strokeWidth=4;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="280" height="360" as="geometry" />
+        </mxCell>
+
+        <mxCell id="creative-icon" value="ART" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E91E63;strokeColor=none;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="160" y="195" width="80" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="creative-title" value="CREATIVE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#C2185B;" vertex="1" parent="1">
+          <mxGeometry x="100" y="275" width="240" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="creative-desc" value="Art, Design &amp; Visual Content" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="305" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="creative-skill-1" value="algorithmic-art" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E91E63;fontSize=13;fontColor=#1A1A2E;align=left;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="345" width="240" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="creative-skill-1-desc" value="Generative art with p5.js" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#888888;spacingLeft=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="380" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="creative-skill-2" value="canvas-design" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E91E63;fontSize=13;fontColor=#1A1A2E;align=left;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="410" width="240" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="creative-skill-2-desc" value="Visual designs (PNG/PDF)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#888888;spacingLeft=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="445" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="creative-skill-3" value="slack-gif-creator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E91E63;fontSize=13;fontColor=#1A1A2E;align=left;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="475" width="240" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="creative-skill-3-desc" value="Animated GIFs for Slack" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#888888;spacingLeft=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="510" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Category 2: Technical -->
+        <mxCell id="technical-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#2196F3;strokeWidth=4;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="180" width="280" height="360" as="geometry" />
+        </mxCell>
+
+        <mxCell id="technical-icon" value="CODE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=none;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="470" y="195" width="80" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="technical-title" value="TECHNICAL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#1565C0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="275" width="240" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="technical-desc" value="Development &amp; Automation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="305" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="technical-skill-1" value="artifacts-builder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2196F3;fontSize=13;fontColor=#1A1A2E;align=left;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="345" width="240" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="technical-skill-1-desc" value="React/Tailwind UI components" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#888888;spacingLeft=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="380" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="technical-skill-2" value="mcp-builder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2196F3;fontSize=13;fontColor=#1A1A2E;align=left;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="410" width="240" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="technical-skill-2-desc" value="MCP server integrations" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#888888;spacingLeft=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="445" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="technical-skill-3" value="webapp-testing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2196F3;fontSize=13;fontColor=#1A1A2E;align=left;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="475" width="240" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="technical-skill-3-desc" value="Playwright UI automation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#888888;spacingLeft=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="510" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Category 3: Enterprise -->
+        <mxCell id="enterprise-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF6B35;strokeWidth=4;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="180" width="280" height="360" as="geometry" />
+        </mxCell>
+
+        <mxCell id="enterprise-icon" value="BIZ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="780" y="195" width="80" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="enterprise-title" value="ENTERPRISE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#E65100;" vertex="1" parent="1">
+          <mxGeometry x="720" y="275" width="240" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="enterprise-desc" value="Business &amp; Communication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="305" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="enterprise-skill-1" value="brand-guidelines" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;fontSize=13;fontColor=#1A1A2E;align=left;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="345" width="240" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="enterprise-skill-1-desc" value="Apply corporate branding" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#888888;spacingLeft=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="380" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="enterprise-skill-2" value="internal-comms" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;fontSize=13;fontColor=#1A1A2E;align=left;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="410" width="240" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="enterprise-skill-2-desc" value="Newsletters &amp; reports" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#888888;spacingLeft=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="445" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="enterprise-skill-3" value="theme-factory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;fontSize=13;fontColor=#1A1A2E;align=left;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="475" width="240" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="enterprise-skill-3-desc" value="Professional themes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#888888;spacingLeft=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="510" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Category 4: Documents -->
+        <mxCell id="documents-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4CAF50;strokeWidth=4;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="180" width="280" height="360" as="geometry" />
+        </mxCell>
+
+        <mxCell id="documents-icon" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="195" width="80" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="documents-title" value="DOCUMENTS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#2E7D32;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="275" width="240" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="documents-desc" value="File Creation &amp; Editing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="305" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="documents-skill-1" value="docx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4CAF50;fontSize=13;fontColor=#1A1A2E;align=left;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="345" width="110" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="documents-skill-2" value="xlsx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4CAF50;fontSize=13;fontColor=#1A1A2E;align=left;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="345" width="110" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="documents-desc-1" value="Word documents" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#888888;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="380" width="110" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="documents-desc-2" value="Excel spreadsheets" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#888888;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="380" width="110" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="documents-skill-3" value="pdf" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4CAF50;fontSize=13;fontColor=#1A1A2E;align=left;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="410" width="110" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="documents-skill-4" value="pptx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4CAF50;fontSize=13;fontColor=#1A1A2E;align=left;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="410" width="110" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="documents-desc-3" value="PDF manipulation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#888888;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="445" width="110" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="documents-desc-4" value="PowerPoint decks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#888888;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="445" width="110" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="documents-badge" value="PRODUCTION-GRADE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=none;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="485" width="160" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Bottom Summary -->
+        <mxCell id="summary-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A1A2E;strokeColor=#FF6B35;strokeWidth=3;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="570" width="1210" height="170" as="geometry" />
+        </mxCell>
+
+        <mxCell id="summary-title" value="Which Category is Right for You?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#FF6B35;" vertex="1" parent="1">
+          <mxGeometry x="400" y="590" width="600" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="use-creative" value="Need visuals or art?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="640" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="use-creative-answer" value="> Creative Skills" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#E91E63;" vertex="1" parent="1">
+          <mxGeometry x="120" y="665" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="use-technical" value="Building software?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="640" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="use-technical-answer" value="> Technical Skills" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#2196F3;" vertex="1" parent="1">
+          <mxGeometry x="380" y="665" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="use-enterprise" value="Business workflows?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="640" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="use-enterprise-answer" value="> Enterprise Skills" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF6B35;" vertex="1" parent="1">
+          <mxGeometry x="640" y="665" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="use-documents" value="Creating documents?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="640" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="use-documents-answer" value="> Document Skills" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#4CAF50;" vertex="1" parent="1">
+          <mxGeometry x="900" y="665" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="mix-note" value="Pro Tip: Mix and match! Use multiple skill categories together for complex workflows." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=3;fontColor=#FFB088;" vertex="1" parent="1">
+          <mxGeometry x="300" y="705" width="800" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Footer -->
+        <mxCell id="footer" value="Figure 6: The Four Kingdoms of Claude Skills — Categories and Use Cases" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=3;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="400" y="760" width="600" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,211 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram name="Skill Activation Flow" id="activation-flow">
+    <mxGraphModel dx="1426" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAFAFA;strokeColor=none;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="50" width="1300" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="How Claude Activates a Skill" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;fontStyle=1;fontColor=#1A1A2E;" parent="1" vertex="1">
+          <mxGeometry x="400" y="70" width="600" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="The Decision Flowchart: From User Request to Skill Execution" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#666666;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="115" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="step-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1976D2;strokeWidth=3;shadow=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="180" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="step-1-icon" value="USER" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="110" y="185" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step-1-num" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=none;fontColor=#FFFFFF;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="185" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="step-1-title" value="User Request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#1976D2;" parent="1" vertex="1">
+          <mxGeometry x="100" y="230" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="step-1-example" value="&quot;Write a blog post&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=3;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="100" y="255" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-1-2" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF6B35;fontStyle=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="240" as="sourcePoint" />
+            <mxPoint x="380" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="step-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF6B35;strokeWidth=3;shadow=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="180" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="step-2-icon" value="SEARCH" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="390" y="185" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step-2-num" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontColor=#FFFFFF;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="185" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="step-2-title" value="Scan Skill Descriptions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FF6B35;" parent="1" vertex="1">
+          <mxGeometry x="380" y="230" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="step-2-example" value="Check all skill names &amp; descriptions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=3;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="380" y="255" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-2-d" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF6B35;fontStyle=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="300" as="sourcePoint" />
+            <mxPoint x="480" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="decision" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#1A1A2E;strokeColor=#FF6B35;strokeWidth=3;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="360" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="decision-text" value="Match&#xa;Found?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="420" y="395" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-no" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#F44336;fontStyle=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="200" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="no-label" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#F44336;" parent="1" vertex="1">
+          <mxGeometry x="280" y="395" width="40" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="no-skill" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#F44336;strokeWidth=2;shadow=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="360" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="no-skill-icon" value="AI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="120" y="365" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="no-skill-title" value="Regular Response" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#C62828;" parent="1" vertex="1">
+          <mxGeometry x="100" y="410" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="no-skill-desc" value="Claude responds without any skill" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=3;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="100" y="435" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-yes" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#4CAF50;fontStyle=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="420" as="sourcePoint" />
+            <mxPoint x="660" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yes-label" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#4CAF50;" parent="1" vertex="1">
+          <mxGeometry x="590" y="395" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="step-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4CAF50;strokeWidth=3;shadow=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="180" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="step-3-icon" value="LOAD" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="670" y="180" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step-3-num" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=none;fontColor=#FFFFFF;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="185" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="step-3-title" value="Load Full SKILL.md" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#4CAF50;" parent="1" vertex="1">
+          <mxGeometry x="660" y="230" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="step-3-example" value="Read complete instructions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=3;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="660" y="255" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-yes-3" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#4CAF50;curved=1;fontStyle=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="420" as="sourcePoint" />
+            <mxPoint x="760" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-3-4" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF6B35;fontStyle=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="240" as="sourcePoint" />
+            <mxPoint x="940" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="step-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;strokeWidth=3;shadow=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="180" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="step-4-icon" value="FAST" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E7D32;strokeColor=none;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="950" y="185" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step-4-num" value="4" style="ellipse;whiteSpace=wrap;html=1;fillColor=#9C27B0;strokeColor=none;fontColor=#FFFFFF;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="185" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="step-4-title" value="Execute Skill" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#9C27B0;" parent="1" vertex="1">
+          <mxGeometry x="940" y="230" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="step-4-example" value="Follow instructions, load scripts if needed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=3;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="940" y="255" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-4-5" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF6B35;fontStyle=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="300" as="sourcePoint" />
+            <mxPoint x="1040" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="step-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;strokeWidth=4;shadow=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="360" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="step-5-icon" value="GO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9C27B0;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="880" y="380" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step-5-num" value="5" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2E7D32;strokeColor=none;fontColor=#FFFFFF;fontSize=20;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1155" y="365" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="step-5-title" value="Personalized Response!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#2E7D32;" parent="1" vertex="1">
+          <mxGeometry x="950" y="395" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="step-5-example" value="Output follows YOUR style, rules, and format — &#xa;consistent every single time!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="430" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="insight-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A1A2E;strokeColor=#FF6B35;strokeWidth=3;shadow=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="560" width="1100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="insight-title" value="The Magic Moment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#FF6B35;" parent="1" vertex="1">
+          <mxGeometry x="450" y="580" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-1" value="User Asks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1976D2;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#1976D2;" parent="1" vertex="1">
+          <mxGeometry x="130" y="640" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-arrow-1" value="&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#FF6B35;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="235" y="640" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-2" value="Claude Scans" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF6B35;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#FF6B35;" parent="1" vertex="1">
+          <mxGeometry x="280" y="640" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-arrow-2" value="&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#FF6B35;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="395" y="640" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-3" value="Match Found!" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4CAF50;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#4CAF50;" parent="1" vertex="1">
+          <mxGeometry x="440" y="640" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-arrow-3" value="&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#FF6B35;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="555" y="640" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-4" value="Load Instructions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#9C27B0;" parent="1" vertex="1">
+          <mxGeometry x="600" y="640" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-arrow-4" value="&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#FF6B35;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="735" y="640" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-5" value="Execute" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFECB3;strokeColor=#FFA000;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#F57C00;" parent="1" vertex="1">
+          <mxGeometry x="780" y="640" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-arrow-5" value="&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#FF6B35;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="875" y="640" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-6" value="Perfect Output!" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;strokeWidth=3;fontSize=14;fontStyle=1;fontColor=#2E7D32;" parent="1" vertex="1">
+          <mxGeometry x="920" y="635" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-emoji" value="DONE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA000;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1065" y="640" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="time-note" value="All of this happens in MILLISECONDS!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FFB088;" parent="1" vertex="1">
+          <mxGeometry x="400" y="700" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="Figure 4: Skill Activation Flow — How Claude Decides to Use a Skill" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=3;fontColor=#888888;" parent="1" vertex="1">
+          <mxGeometry x="400" y="760" width="600" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

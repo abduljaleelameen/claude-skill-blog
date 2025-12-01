@@ -1,0 +1,289 @@
+<mxfile host="app.diagrams.net" modified="2025-12-01T00:00:00.000Z" agent="5.0" version="21.0.0" type="device">
+  <diagram name="Skill Creation Workflow" id="workflow-diagram">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Background -->
+        <mxCell id="bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAFAFA;strokeColor=none;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="1300" height="800" as="geometry" />
+        </mxCell>
+
+        <!-- Title -->
+        <mxCell id="title" value="Creating Your First Skill: The Workflow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;fontStyle=1;fontColor=#1A1A2E;" vertex="1" parent="1">
+          <mxGeometry x="350" y="70" width="700" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="subtitle" value="From Idea to Implementation in 5 Steps" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="115" width="500" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Step 1 -->
+        <mxCell id="step-1-circle" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1976D2;strokeWidth=4;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="200" width="200" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-1-num" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=none;fontColor=#FFFFFF;fontSize=28;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="205" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-1-icon" value="SEARCH" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="155" y="260" width="90" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-1-title" value="IDENTIFY" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#1976D2;" vertex="1" parent="1">
+          <mxGeometry x="125" y="325" width="150" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-1-desc" value="Find the Gap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="350" width="150" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Step 1 Details -->
+        <mxCell id="step-1-detail" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1976D2;strokeWidth=2;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="240" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-1-q1" value="What do I repeat often?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#1A1A2E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="435" width="210" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-1-q2" value="Where do I re-explain things?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#1A1A2E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="465" width="210" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-1-q3" value="What saves the most time?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#1A1A2E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="495" width="210" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow 1-2 -->
+        <mxCell id="arrow-1-2" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#FF6B35;fontStyle=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="300" as="sourcePoint" />
+            <mxPoint x="360" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Step 2 -->
+        <mxCell id="step-2-circle" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF6B35;strokeWidth=4;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="200" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-2-num" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontColor=#FFFFFF;fontSize=28;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="205" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-2-icon" value="DIR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A1A2E;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="415" y="260" width="90" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-2-title" value="CREATE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FF6B35;" vertex="1" parent="1">
+          <mxGeometry x="385" y="325" width="150" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-2-desc" value="Build Structure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="350" width="150" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Step 2 Details -->
+        <mxCell id="step-2-detail" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="420" width="240" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-2-code" value="mkdir my-skill/&#xa;cd my-skill/&#xa;touch SKILL.md" style="text;html=1;strokeColor=none;fillColor=#F5F5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontFamily=Courier New;fontColor=#1A1A2E;spacingLeft=10;spacingTop=5;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="440" width="210" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow 2-3 -->
+        <mxCell id="arrow-2-3" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#FF6B35;fontStyle=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="300" as="sourcePoint" />
+            <mxPoint x="620" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Step 3 -->
+        <mxCell id="step-3-circle" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4CAF50;strokeWidth=4;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="200" width="200" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-3-num" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=none;fontColor=#FFFFFF;fontSize=28;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="695" y="205" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-3-icon" value="WRITE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="675" y="260" width="90" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-3-title" value="WRITE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#4CAF50;" vertex="1" parent="1">
+          <mxGeometry x="645" y="325" width="150" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-3-desc" value="SKILL.md Content" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="350" width="150" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Step 3 Details -->
+        <mxCell id="step-3-detail" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4CAF50;strokeWidth=2;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="420" width="240" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-3-list-1" value="YAML frontmatter" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#1A1A2E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="435" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-3-list-2" value="Clear instructions" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#1A1A2E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="465" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-3-list-3" value="Examples &amp; guidelines" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#1A1A2E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="495" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow 3-4 -->
+        <mxCell id="arrow-3-4" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#FF6B35;fontStyle=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="300" as="sourcePoint" />
+            <mxPoint x="880" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Step 4 -->
+        <mxCell id="step-4-circle" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;strokeWidth=4;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="200" width="200" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-4-num" value="4" style="ellipse;whiteSpace=wrap;html=1;fillColor=#9C27B0;strokeColor=none;fontColor=#FFFFFF;fontSize=28;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="955" y="205" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-4-icon" value="TEST" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9C27B0;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="935" y="260" width="90" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-4-title" value="TEST" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#9C27B0;" vertex="1" parent="1">
+          <mxGeometry x="905" y="325" width="150" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-4-desc" value="Try It Out" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="905" y="350" width="150" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Step 4 Details -->
+        <mxCell id="step-4-detail" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="420" width="240" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-4-list-1" value="Use with real tasks" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#1A1A2E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="875" y="435" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-4-list-2" value="Check output quality" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#1A1A2E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="875" y="465" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-4-list-3" value="Note improvements" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#1A1A2E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="875" y="495" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow 4-5 -->
+        <mxCell id="arrow-4-5" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#FF6B35;fontStyle=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="300" as="sourcePoint" />
+            <mxPoint x="1140" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Step 5 -->
+        <mxCell id="step-5-circle" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFECB3;strokeColor=#FFA000;strokeWidth=4;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="200" width="200" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-5-num" value="5" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFA000;strokeColor=none;fontColor=#FFFFFF;fontSize=28;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="205" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-5-icon" value="LOOP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA000;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="260" width="90" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-5-title" value="ITERATE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#F57C00;" vertex="1" parent="1">
+          <mxGeometry x="1165" y="325" width="150" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-5-desc" value="Refine &amp; Improve" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1165" y="350" width="150" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Step 5 Details -->
+        <mxCell id="step-5-detail" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFA000;strokeWidth=2;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="420" width="240" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-5-list-1" value="+ Tighten output specs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#1A1A2E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="435" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-5-list-2" value="+ Add more examples" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#1A1A2E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="465" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-5-list-3" value="+ Optimize description" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#1A1A2E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="495" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Iteration Loop Arrow -->
+        <mxCell id="loop-arrow" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF6B35;curved=1;dashed=1;fontStyle=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="420" as="sourcePoint" />
+            <mxPoint x="980" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1240" y="570" />
+              <mxPoint x="980" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="loop-label" value="Repeat until perfect!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=3;fontColor=#FF6B35;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="580" width="140" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Success Box -->
+        <mxCell id="success-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A1A2E;strokeColor=#FF6B35;strokeWidth=3;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="620" width="780" height="130" as="geometry" />
+        </mxCell>
+
+        <mxCell id="success-icon" value="GOAL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="120" y="650" width="80" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="success-title" value="Pro Tips for Success" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#FF6B35;" vertex="1" parent="1">
+          <mxGeometry x="200" y="635" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip-1" value="Start simple, then add complexity" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="670" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip-2" value="Use specific keywords in descriptions" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="695" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip-3" value="Include good AND bad examples" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="670" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip-4" value="Test with edge cases" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="695" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Footer -->
+        <mxCell id="footer" value="Figure 9: The Skill Creation Workflow — From Idea to Implementation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=3;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="400" y="770" width="600" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

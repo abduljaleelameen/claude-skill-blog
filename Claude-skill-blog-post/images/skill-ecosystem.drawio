@@ -1,0 +1,154 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram name="Skill Ecosystem" id="ecosystem-diagram">
+    <mxGraphModel dx="1426" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAFAFA;strokeColor=none;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="50" width="1300" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="The Claude Skills Ecosystem" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;fontStyle=1;fontColor=#1A1A2E;" parent="1" vertex="1">
+          <mxGeometry x="400" y="70" width="600" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Build Once &gt; Use Everywhere" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#FF6B35;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="115" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="central-hub" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1A1A2E;strokeColor=#FF6B35;strokeWidth=4;shadow=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="280" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="hub-icon" value="SKILLS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A1A2E;strokeColor=#FF6B35;fontSize=14;fontStyle=1;fontColor=#FF6B35;" parent="1" vertex="1">
+          <mxGeometry x="630" y="340" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hub-title" value="YOUR SKILLS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#FF6B35;" parent="1" vertex="1">
+          <mxGeometry x="600" y="440" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hub-desc" value="Portable &amp; Reusable" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#FFFFFF;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="625" y="480" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4CAF50;strokeWidth=3;shadow=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="200" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-1-icon" value="WEB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=none;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="110" y="220" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-1-title" value="Claude.ai" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#2E7D32;" parent="1" vertex="1">
+          <mxGeometry x="180" y="230" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-1-subtitle" value="Web Interface" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#666666;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="260" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-1-feature-1" value="Yes - Upload skills directly" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="300" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-1-feature-2" value="Yes - Visual skill management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="325" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-1-feature-3" value="Yes - Pro/Max/Team/Enterprise" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="350" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-1" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=3;strokeColor=#4CAF50;curved=1;fontStyle=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="300" as="sourcePoint" />
+            <mxPoint x="550" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="platform-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#2196F3;strokeWidth=3;shadow=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="460" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-2-icon" value="CODE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=none;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="110" y="480" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-2-title" value="Claude Code" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#1565C0;" parent="1" vertex="1">
+          <mxGeometry x="180" y="490" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-2-subtitle" value="Terminal / VS Code" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#666666;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="520" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-2-feature-1" value="Yes - ~/.claude/skills/ folder" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="560" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-2-feature-2" value="Yes - Plugin marketplace" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="585" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-2-feature-3" value="Yes - Git integration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="610" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-2" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=3;strokeColor=#2196F3;curved=1;fontStyle=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="560" as="sourcePoint" />
+            <mxPoint x="550" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="platform-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF6B35;strokeWidth=3;shadow=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="200" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-3-icon" value="API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="220" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-3-title" value="Claude API" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#E65100;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="230" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-3-subtitle" value="Programmatic Access" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#666666;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="260" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-3-feature-1" value="Yes - All API users" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="300" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-3-feature-2" value="Yes - Code execution tool" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="325" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-3-feature-3" value="Yes - Build custom agents" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="350" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-3" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=3;strokeColor=#FF6B35;curved=1;fontStyle=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="350" as="sourcePoint" />
+            <mxPoint x="1020" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="platform-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;strokeWidth=3;shadow=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="460" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-4-icon" value="GO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9C27B0;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="480" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-4-title" value="Your Apps" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#7B1FA2;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="490" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-4-subtitle" value="Custom Integrations" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#666666;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="520" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-4-feature-1" value="Yes - Embed in products" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="560" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-4-feature-2" value="Yes - Team-wide distribution" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="585" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-4-feature-3" value="Yes - Enterprise workflows" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="610" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-4" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=3;strokeColor=#9C27B0;curved=1;fontStyle=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="510" as="sourcePoint" />
+            <mxPoint x="1020" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A1A2E;strokeColor=#FF6B35;strokeWidth=3;shadow=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="710" width="1000" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="message-icon" value="TIP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA000;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="230" y="730" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="message-title" value="The Power of Portability" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#FF6B35;" parent="1" vertex="1">
+          <mxGeometry x="300" y="725" width="350" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="message-text" value="Create a skill ONCE &gt; Use it in Claude.ai, Claude Code, API, and your custom apps. Your personalized AI travels with you everywhere!" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FFFFFF;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="760" width="870" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="Figure 7: The Claude Skills Ecosystem — Build Once, Use Everywhere" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=3;fontColor=#888888;" parent="1" vertex="1">
+          <mxGeometry x="400" y="830" width="600" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

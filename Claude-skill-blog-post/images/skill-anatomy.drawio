@@ -1,0 +1,168 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram name="Skill Anatomy" id="anatomy-diagram">
+    <mxGraphModel dx="1426" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAFAFA;strokeColor=none;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="50" width="1300" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="Anatomy of a Claude Skill" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;fontStyle=1;fontColor=#1A1A2E;" parent="1" vertex="1">
+          <mxGeometry x="400" y="70" width="600" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Understanding the SKILL.md File Structure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#666666;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="115" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="file-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1A1A2E;strokeWidth=3;shadow=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="170" width="500" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="file-header" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1A1A2E;strokeColor=none;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="170" width="500" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="file-icon" value="FILE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="160" y="175" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="file-name" value="SKILL.md" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="200" y="175" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yaml-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF6B35;strokeWidth=2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="240" width="460" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yaml-badge" value="YAML FRONTMATTER" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="250" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="yaml-required" value="! REQUIRED" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCDD2;strokeColor=#F44336;fontColor=#C62828;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="250" width="90" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="yaml-line1" value="---" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Courier New;fontColor=#666666;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="285" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yaml-line2" value="name: my-skill-name" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Courier New;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="305" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yaml-line3" value="description: What this skill does..." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Courier New;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="325" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yaml-line4" value="---" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Courier New;fontColor=#666666;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="345" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yaml-note" value="Claude reads this FIRST to decide if the skill is relevant" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=3;fontColor=#FF6B35;" parent="1" vertex="1">
+          <mxGeometry x="190" y="375" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="title-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1A1A2E;strokeWidth=2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="440" width="460" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="title-badge" value="SKILL TITLE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A1A2E;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="450" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="title-content" value="# My Awesome Skill" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Courier New;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="485" width="400" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="instructions-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4CAF50;strokeWidth=2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="540" width="460" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="instructions-badge" value="INSTRUCTIONS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="550" width="110" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="instructions-content1" value="## How To Use" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Courier New;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="585" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="instructions-content2" value="Step-by-step guidance for Claude..." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Courier New;fontColor=#666666;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="610" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="instructions-note" value="The detailed &quot;recipe&quot; Claude follows" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=3;fontColor=#4CAF50;" parent="1" vertex="1">
+          <mxGeometry x="190" y="645" width="400" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="examples-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;strokeWidth=2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="700" width="460" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="examples-badge" value="EXAMPLES" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9C27B0;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="710" width="90" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="examples-optional" value="OPTIONAL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1BEE7;strokeColor=#9C27B0;fontColor=#7B1FA2;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="710" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="examples-content" value="## Examples&#xa;- Good example 1&#xa;- Good example 2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Courier New;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="745" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="examples-note" value="Shows Claude what good output looks like" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=3;fontColor=#9C27B0;" parent="1" vertex="1">
+          <mxGeometry x="190" y="800" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="explain-container-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;shadow=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="200" width="550" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="explain-icon-1" value="TAG" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="740" y="220" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="explain-title-1" value="name" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#FF6B35;" parent="1" vertex="1">
+          <mxGeometry x="810" y="220" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="explain-desc-1" value="Unique identifier for your skill" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="810" y="250" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="explain-rules-1" value="Yes - Lowercase only&#xa;Yes - Hyphens instead of spaces&#xa;Yes - Max 64 characters" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666666;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="810" y="275" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="explain-example-1" value="my-brand-writer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF6B35;fontSize=13;fontFamily=Courier New;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="240" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF6B35;curved=1;fontStyle=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="310" as="sourcePoint" />
+            <mxPoint x="720" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="310" />
+              <mxPoint x="680" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="explain-container-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;shadow=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="360" width="550" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="explain-icon-2" value="DOC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="740" y="380" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="explain-title-2" value="description" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#FF6B35;" parent="1" vertex="1">
+          <mxGeometry x="810" y="380" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="explain-desc-2" value="Tells Claude WHEN to use this skill" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="810" y="410" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="explain-important" value="CRITICAL: This is how Claude selects the right skill!" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#F44336;" parent="1" vertex="1">
+          <mxGeometry x="810" y="435" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="explain-rules-2" value="Yes - Write in third person&#xa;Yes - Be specific about triggers&#xa;Yes - Include file types/keywords&#xa;Yes - Max 1024 characters" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666666;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="810" y="460" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="explain-example-2" value="Writes marketing copy following brand guidelines. Use for blog posts, ads, and social media." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF6B35;fontSize=11;fontFamily=Courier New;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="460" width="210" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF6B35;curved=1;fontStyle=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="340" as="sourcePoint" />
+            <mxPoint x="720" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="340" />
+              <mxPoint x="680" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="insight-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A1A2E;strokeColor=#FF6B35;strokeWidth=3;shadow=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="570" width="550" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="insight-icon" value="TIP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA000;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="740" y="590" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="insight-title" value="KEY INSIGHT" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#FF6B35;" parent="1" vertex="1">
+          <mxGeometry x="810" y="590" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="insight-text" value="A skill is like a recipe card: the name is the dish title, the description tells you when to make it, and the markdown content contains the cooking instructions!" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#FFFFFF;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="810" y="625" width="440" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="Figure 2: Anatomy of a Claude Skill — What&#39;s Inside the SKILL.md File" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=3;fontColor=#888888;" parent="1" vertex="1">
+          <mxGeometry x="400" y="870" width="600" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

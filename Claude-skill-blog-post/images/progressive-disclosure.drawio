@@ -1,0 +1,239 @@
+<mxfile host="app.diagrams.net" modified="2025-12-01T00:00:00.000Z" agent="5.0" version="21.0.0" type="device">
+  <diagram name="Progressive Disclosure" id="progressive-diagram">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Background -->
+        <mxCell id="bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAFAFA;strokeColor=none;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="1300" height="800" as="geometry" />
+        </mxCell>
+
+        <!-- Title -->
+        <mxCell id="title" value="Progressive Disclosure: Claude's Smart Memory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;fontStyle=1;fontColor=#1A1A2E;" vertex="1" parent="1">
+          <mxGeometry x="300" y="70" width="800" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="subtitle" value="How Claude loads skill information efficiently — like a filing cabinet system" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="115" width="700" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Filing Cabinet Visual -->
+        <mxCell id="cabinet" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1A1A2E;strokeColor=none;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="200" width="250" height="500" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cabinet-top" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2D2D44;strokeColor=none;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cabinet-label" value="SKILL CABINET" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FF6B35;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="210" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Drawer 1 -->
+        <mxCell id="drawer-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3D3D54;strokeColor=#FF6B35;strokeWidth=2;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="260" width="220" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="drawer-1-label" value="Skill Names &amp; Descriptions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="280" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="drawer-1-handle" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="50" height="10" as="geometry" />
+        </mxCell>
+
+        <mxCell id="drawer-1-status" value="ALWAYS VISIBLE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=none;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="335" width="130" height="18" as="geometry" />
+        </mxCell>
+
+        <!-- Drawer 2 -->
+        <mxCell id="drawer-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4D4D64;strokeColor=#FFB088;strokeWidth=2;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="380" width="220" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="drawer-2-label" value="Full SKILL.md Content" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="400" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="drawer-2-handle" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB088;strokeColor=none;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="440" width="50" height="10" as="geometry" />
+        </mxCell>
+
+        <mxCell id="drawer-2-status" value="LOADED WHEN RELEVANT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9800;strokeColor=none;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="455" width="160" height="18" as="geometry" />
+        </mxCell>
+
+        <!-- Drawer 3 -->
+        <mxCell id="drawer-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#5D5D74;strokeColor=#BBBBBB;strokeWidth=2;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="500" width="220" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="drawer-3-label" value="Supporting Files &amp; Scripts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="520" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="drawer-3-handle" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BBBBBB;strokeColor=none;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="560" width="50" height="10" as="geometry" />
+        </mxCell>
+
+        <mxCell id="drawer-3-status" value="ON-DEMAND ONLY" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9E9E9E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="575" width="130" height="18" as="geometry" />
+        </mxCell>
+
+        <!-- Level Details - Right Side -->
+        <!-- Level 1 -->
+        <mxCell id="level-1-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4CAF50;strokeWidth=3;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="200" width="460" height="160" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level-1-num" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=none;fontColor=#FFFFFF;fontSize=24;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="220" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level-1-title" value="LEVEL 1: The Labels" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#2E7D32;" vertex="1" parent="1">
+          <mxGeometry x="500" y="220" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level-1-desc" value="Skill names and descriptions are ALWAYS loaded at startup. Like reading drawer labels without opening them." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#1A1A2E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="255" width="360" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level-1-example" value="&quot;brand-writer: Writes content following brand guidelines&quot;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4CAF50;fontSize=12;fontFamily=Courier New;fontColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="310" width="420" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow from cabinet to level 1 -->
+        <mxCell id="arrow-1" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#4CAF50;curved=1;fontStyle=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="335" y="310" as="sourcePoint" />
+            <mxPoint x="420" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Level 2 -->
+        <mxCell id="level-2-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9800;strokeWidth=3;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="380" width="460" height="160" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level-2-num" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF9800;strokeColor=none;fontColor=#FFFFFF;fontSize=24;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level-2-title" value="LEVEL 2: The Full Recipe" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#E65100;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="280" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level-2-desc" value="Complete SKILL.md content loaded only when Claude decides this skill is relevant to your request." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#1A1A2E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="435" width="360" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level-2-example" value="Full instructions, examples, formatting rules, tone guidelines..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9800;fontSize=12;fontFamily=Courier New;fontColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="490" width="420" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow from cabinet to level 2 -->
+        <mxCell id="arrow-2" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF9800;curved=1;fontStyle=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="335" y="430" as="sourcePoint" />
+            <mxPoint x="420" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Level 3 -->
+        <mxCell id="level-3-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#9E9E9E;strokeWidth=3;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="560" width="460" height="160" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level-3-num" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#9E9E9E;strokeColor=none;fontColor=#FFFFFF;fontSize=24;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="580" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level-3-title" value="LEVEL 3: The Deep Details" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#616161;" vertex="1" parent="1">
+          <mxGeometry x="500" y="580" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level-3-desc" value="Supporting files, scripts, and templates loaded only during actual skill execution when needed." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#1A1A2E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="615" width="360" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level-3-example" value="templates/, scripts/helper.py, examples/, reference.md..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9E9E9E;fontSize=12;fontFamily=Courier New;fontColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="670" width="420" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow from cabinet to level 3 -->
+        <mxCell id="arrow-3" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#9E9E9E;curved=1;fontStyle=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="335" y="550" as="sourcePoint" />
+            <mxPoint x="420" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Why This Matters Box -->
+        <mxCell id="why-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A1A2E;strokeColor=#FF6B35;strokeWidth=3;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="200" width="360" height="520" as="geometry" />
+        </mxCell>
+
+        <mxCell id="why-title" value="Why This Matters" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#FF6B35;" vertex="1" parent="1">
+          <mxGeometry x="940" y="220" width="320" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="why-analogy" value="Imagine reading an ENTIRE cookbook just to boil water..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=3;fontColor=#FFB088;" vertex="1" parent="1">
+          <mxGeometry x="940" y="270" width="320" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="why-emoji" value="Efficient Loading" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF6B35;fontSize=14;fontStyle=1;fontColor=#E65100;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="310" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="benefit-1" value="FAST" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="380" width="130" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="benefit-1-desc" value="Less data to process = faster responses" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="425" width="150" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="benefit-2" value="SMART" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="380" width="130" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="benefit-2-desc" value="Loads only what's needed for your task" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="425" width="170" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="benefit-3" value="EFFICIENT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="480" width="130" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="benefit-3-desc" value="Saves tokens = saves money" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="525" width="150" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="benefit-4" value="SCALABLE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="480" width="130" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="benefit-4-desc" value="Works with 100+ skills without slowdown" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="525" width="170" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="summary-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2D2D44;strokeColor=none;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="580" width="300" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="summary-text" value="Progressive Disclosure = &#xa;Show JUST ENOUGH info &#xa;to decide what to do next" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="960" y="600" width="280" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Footer -->
+        <mxCell id="footer" value="Figure 3: Progressive Disclosure — Claude's Smart Memory System for Skills" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=3;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="400" y="750" width="600" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
