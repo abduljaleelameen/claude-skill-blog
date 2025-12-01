@@ -1,0 +1,15 @@
+# Jekyll configuration for Claude Skills Blog
+title: Claude Skills Guide
+description: A comprehensive guide to creating, using, and mastering Claude Skills
+theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman@v0.2.0
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Build settings
+plugins:
+  - jekyll-remote-theme
